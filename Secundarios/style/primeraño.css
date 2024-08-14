@@ -1,0 +1,124 @@
+/* Estilos previos al botón de registro */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #88b2db; /* Fondo oscuro */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Color del texto */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.navbar {
+    background-color: #a8a4a4; /* Barra de navegación */
+    padding: 10px 0;
+    color: black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #686868; /* Color de fondo al pasar el mouse */
+}
+
+  
+.login-container {
+    margin-top:100px;
+    background-color: #212830; /* Bloque de inicio de sesión */
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+position: relative;
+}
+
+.login-container h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.login-container input {
+    width: 98%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #2c3e50; /* Fondo oscuro para el input */
+    color: #fff; /* Color del texto */
+}
+
+.login-container button {
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px;
+    background-color: #206796; /* Color del botón */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #2980b9; /* Color del botón al pasar el mouse */
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos para el botón de registro */
+.background-image ::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Secundarios/asset/img/pngtree-d-abstract-digital-technology-background-futuristic-sci-fi-user-interface-concept-image_406794.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5; /* Ajusta la opacidad según tus preferencias */
+    z-index: -21; /* Asegura que el pseudo-elemento esté detrás del contenido */
+}
+
+.register-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #3498db; /* Color del botón */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #2980b9; /* Color del botón al pasar el mouse */
+}
+.登录{
+   position: absolute;
+    margin-left: 20px;
+    max-width: 200px;
+}
