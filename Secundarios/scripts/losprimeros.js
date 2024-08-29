@@ -5,7 +5,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     
     // Comprobar si la contraseña es correcta
     if (password === "losprimeros") {
-        window.location.href = "biblioteca.html"; // Redireccionar a la página secreta
+        window.location.href = "pagina-secreta.html"; // Redireccionar a la página secreta
     } else {
         document.getElementById("error-message").innerText = "Contraseña incorrecta";
     }
