@@ -43,10 +43,10 @@ h2{
 }
 
 a{
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    box-shadow: transparent;
     color:rgb(189, 255, 83);
     text-align: left;
-    background: #33333354;
+    background: transparent;
     font-size: 20px;
     text-align: left;
     padding-top: 10px;
