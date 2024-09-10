@@ -94,17 +94,16 @@ body {
 }
 
 .background-image::before {
-    filter: blur(5px);
+    filter: blur(7px);
     content: "";
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(Secundarios/asset/img/flores.jpg);
+    background-image: url(/Secundarios/asset/img/flores.jpg);
     background-attachment: fixed;
     background-size: cover;
-    opacity: 0.5;
     z-index: -21;
 }
 
