@@ -192,14 +192,13 @@ font-size: 24px;
         font-size: 15px; /* Tamaño de la fuente al pasar el mouse en pantallas móviles */
     }
 
-    .img2 {
-        max-width: 100px !important; /* Forzar el tamaño más pequeño en pantallas móviles */
-        height: auto !important; /* Asegurar que la altura sea proporcional */
-    }
 
     .barra-superior {
         flex-direction: column; /* Colocar los enlaces uno debajo del otro */
         font-size: 10px;
+    }
+    .as{
+        max-width: 10px ;
     }
 }
 
