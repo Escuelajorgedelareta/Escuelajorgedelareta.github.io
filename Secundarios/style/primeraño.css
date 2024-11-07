@@ -1,0 +1,157 @@
+/* Estilos previos al botón de registro */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #88b2db;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navbar .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar .menu li {
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.navbar .menu li a:hover {
+    color: white;
+    background-color: #686868;
+}
+
+.login-container {
+    margin-top: 150px;
+    background-color: #212830;
+    padding: 120px;
+    border-radius: 2%;
+    position: relative;
+}
+
+.login-container h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 20px;
+    margin-top:20px;
+    border-radius: 3px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.login-container button {
+    margin-top: 40px;
+    margin-left: 650px;
+    width: 20%;
+    padding: 20px;
+    background-color: #20963d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #197931;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.background-image::before {
+    filter: blur(7px);
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Secundarios/asset/img/flores.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -21;
+}
+
+.register-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #2980b9;
+}
+
+.登录{
+    background-color: #fff;
+max-width: 200px;
+position: absolute;
+margin-top: -25px;
+margin-left: 100px;
+}
+.登录:hover{
+    background-color: #ffffffde;
+  
+}
+
+@media (max-width: 768px) {
+    .登录{
+        margin-top: -60px;
+        margin-left: 110px;
+    }
+    .navbar .menu {
+        display:contents;
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    
+.navbar .menu li a:hover {
+    color: white;
+    background-color:rgba(255, 255, 255, 0.164);
+}
+}
