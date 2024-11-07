@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+        color: rgb(14, 195, 250);
+    background-color: #000000c5;
+    font-size: 19px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Secundarios/asset/img/pngtree-d-abstract-digital-technology-background-futuristic-sci-fi-user-interface-concept-image_406794.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5; /* Ajusta la opacidad según tus preferencias */
+    z-index: -21; /* Asegura que el pseudo-elemento esté detrás del contenido */
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+h4{
+    color: rgb(9, 233, 222);
+    background-color: #333(47, 49, 63, 0.533);
+    text-align: center;
+    font-size: 24px;
+}
+
+h2{
+    color:rgb(255, 0, 0);
+    text-align: center;
+       background-color: #333(47, 49, 63, 0.533);
+       font-size: 20px;
+     padding: 10px;
+}
+
+a{
+    box-shadow: transparent;
+    color:rgb(189, 255, 83);
+    text-align: left;
+    background: transparent;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.texto-adicional{
+    background: #33333354;
+    padding: 20px;
+}
+
+.barra-superior {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(255, 78, 47);
+    font-size: 60px;
+}
+
+.login-container {
+    background-color: #34495e; /* Bloque de inicio de sesión */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    position: relative;
+}
+
+.login-container h2 {
+    margin-top: 0;
+    text-align: left;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #2c3e50; /* Fondo oscuro para el input */
+    color: #fff; /* Color del texto */
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db; /* Color del botón */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #2980b9; /* Color del botón al pasar el mouse */
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos para el botón de registro */
+.background-image {
+    background-image: url('pngtree-d-abstract-digital-technology-background-futuristic-sci-fi-user-interface-concept-image_406794.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+   position: relative;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+.register-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #3498db; /* Color del botón */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #2980b9; /* Color del botón al pasar el mouse */
+}
+.登录{
+    position: relative;
+    
+    max-width: 230px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+li{
+    color:rgb(217, 255, 0);
+    text-align: left;
+       background-color: #333(47, 49, 63, 0.533);
+       font-size: 20px;
+     padding: 10px;
+}
