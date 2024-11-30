@@ -11344,6 +11344,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   .dav{
     display: none;
   }
+  .map{
+    display:none;
+  }
 
   .img-fluid{
     
