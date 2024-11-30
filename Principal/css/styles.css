@@ -11337,8 +11337,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-left: 50px;}  
 }
 @media (min-width:800px) {
-  .map{width:800px;
-  margin-left: 100px;}  
+  .map{
+    width:800px;
+  margin-left: 100px;
+  }  
 }
 @media (max-width:900px) {
   .dav{
