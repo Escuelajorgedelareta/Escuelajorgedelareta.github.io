@@ -10872,6 +10872,11 @@ p {
 }
 
 @media (min-width: 768px) {
+    #mainNav {
+    background-color: #171717 !important; /* Fondo oscuro */
+    padding: 0.5rem; /* Opcional: ajustar el padding para pantallas pequeñas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agregar sombra para resaltar la barra */
+}
   section {
     padding: 9rem 0;
   }
@@ -10893,10 +10898,19 @@ p {
   border-radius: 100%;
 }
 
+/* Estado inicial: transparente */
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: transparent;
+  padding: 1rem;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+  box-shadow: none; /* Sin sombra en el estado inicial */
+}
+
+/* Estado al desplazarse: fondo oscuro */
+#mainNav.navbar-shrink {
+  background-color: #171717; /* Ajusta al color que desees */
+  padding: 0.5rem; /* Reducimos el padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra al desplazarse */
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
