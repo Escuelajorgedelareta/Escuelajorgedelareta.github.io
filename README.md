@@ -10,3 +10,6 @@ La página web de la **Escuela Jorge de la Reta** está orientada a estudiantes,
 - Detalles sobre **eventos y actividades escolares**.
 - Sección de **registro para nuevos estudiantes**.
 - **Navegación intuitiva** adaptada a dispositivos móviles y de escritorio.
+- 
+ ```bash
+  https://escuelajorgedelareta.github.io
