@@ -1,15 +1,12 @@
-# Robotica Jorge De la Reta
+# Página Web - Escuela Jorge de la Reta
 
-Bienvenido al repositorio de **Robotica Jorge De la Reta**. Este es el sitio web oficial de la cooperativa de robótica dedicada a fomentar el aprendizaje y desarrollo de proyectos tecnológicos en las áreas de robótica, electrónica y programación.
+Bienvenido al repositorio oficial de la página web de la **Escuela Jorge de la Reta**. Este sitio web está diseñado para proporcionar información importante sobre la escuela, sus actividades y programas educativos, además de facilitar el registro y la comunicación con la comunidad escolar.
 
 ## Descripción
 
-**Robotica Jorge De la Reta** es una comunidad educativa que se especializa en el desarrollo de proyectos innovadores, con el objetivo de despertar la curiosidad científica en los jóvenes y brindarles herramientas para enfrentar los desafíos tecnológicos del futuro. Participamos activamente en competencias regionales y nacionales, compartimos conocimientos y promovemos el trabajo en equipo.
+La página web de la **Escuela Jorge de la Reta** está orientada a estudiantes, padres de familia y cualquier interesado en obtener más información sobre nuestra institución. Algunas de las características del sitio son:
 
-## Características
-
-- **Página web interactiva** para aprender sobre robótica y tecnología.
-- **Sección de registro** para unirse a nuestra comunidad de robótica.
-- **Animaciones y efectos visuales** para una experiencia dinámica.
-- **Diseño adaptativo** que funciona bien en dispositivos móviles y de escritorio.
-
+- Información sobre **programas educativos**.
+- Detalles sobre **eventos y actividades escolares**.
+- Sección de **registro para nuevos estudiantes**.
+- **Navegación intuitiva** adaptada a dispositivos móviles y de escritorio.
